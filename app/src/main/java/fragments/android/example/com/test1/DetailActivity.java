@@ -10,6 +10,7 @@ import android.view.MenuItem;
 public class DetailActivity extends ActionBarActivity {
 
     public static String EXTRA_URL = "id:";
+    public static String STATE_KEY1 = "id";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

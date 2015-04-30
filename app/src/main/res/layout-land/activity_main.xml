@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <fragment
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/headerFragment"
+        android:name="fragments.android.example.com.test1.HeaderFragment"
+        tools:layout="@layout/fragment_header" />
+
+    <fragment
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/detailFragment"
+        android:name="fragments.android.example.com.test1.DetailFragment"
+        tools:layout="@layout/fragment_detail"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/headerFragment"
+        android:layout_toEndOf="@+id/headerFragment"
+        android:layout_marginLeft="56dp"
+        android:layout_marginStart="56dp" />
+</RelativeLayout>

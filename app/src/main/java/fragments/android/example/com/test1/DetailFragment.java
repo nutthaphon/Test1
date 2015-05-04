@@ -33,7 +33,7 @@ public class DetailFragment extends Fragment {
             case 3 : str = "Stringgggggggggggggg 333333333"; break;
             case 4 : str = "Stringgggggggggggggg 444444444"; break;
             case 5 : str = "Stringgggggggggggggg 555555555"; break;
-            default: str = "";
+            default: str = "Not avail.";
         }
 
         textView1.setText(str);
